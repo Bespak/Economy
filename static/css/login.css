@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.label-input-group {
+    position: relative; /* Necesario para mover la etiqueta hacia arriba */
+    width: 70%; /* Limita el ancho del input y la etiqueta */
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    top: -16px; /* Mueve la etiqueta hacia arriba */
+    left: 0;
+    padding-left: 10px; /* Alinea la etiqueta al inicio del input */
+    color: #6c6c6c;
+}
+
+input {
+    width: 100%; /* Los inputs ocuparán el 100% del ancho disponible */
+    padding: 8px 12px;
+    border: 1px solid #b5b5b5;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    width: 50%; /* El botón también tiene el mismo ancho que los inputs */
+    padding: 10px;
+    background-color: #9c5600;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #744200;
+}
+
+
+.logo-container {
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 40px; /* Ajusta el espacio entre la imagen y los inputs */
+}
+
+.logo {
+    max-width: 100%; /* Esto asegura que la imagen se ajuste al tamaño del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    width: 150px; /* Puedes ajustar el tamaño según lo necesites */
+}
+
